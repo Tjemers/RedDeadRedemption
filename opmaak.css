@@ -1,0 +1,144 @@
+ @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+*{          /*alles geselecteerd voor geen padding en margins*/
+    margin: 0px;
+    padding: 0px;
+}
+
+header{   /*Zorgt voor de opmaak voor de header*/
+    font-family: "Special Elite";
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px;  
+}
+
+body{       /*Zorgt voor de opmaak voor de Body*/
+    background-image: url(resources/Achtergrond\ RDR2.png);
+    background-size: cover;                                     
+    background-repeat:no-repeat;                       /*Chatgpt*/
+    background-position: center;                        /*Chatgpt*/
+    background-color: rgb(0, 0, 0);                   /*Chatgpt*/
+    height: 100vh;                                      /*Chatgpt*/
+    margin: 0;                                          /*Chatgpt*/
+}
+
+.tekst{       /*Zorgt voor de opmaak voor de tekst zelf*/
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 600px;
+    border-radius: 20px;
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.alles{       /*Zorgt voor de opmaak voor de container alles*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gangfotos img{       /*Zorgt voor de opmaak voor de gangfotos images*/
+    max-width: 100%;
+    width: 200px;
+    border-radius: 40px;
+    border: 3px solid rgb(255, 255, 255)
+}
+
+.gangfotos:hover img{       /*Zorgt voor de animatie voor de images*/
+    max-width: 100%;
+    width: 250px;
+    transition: 0.3s;
+}
+
+#filmpje{       /*Zorgt voor de opmaak voor het introductie filmpje*/
+    border-radius: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    overflow: hidden;                           /*Chatgpt*/
+    align-items: center;
+}
+
+#intro{       /*Zorgt voor de opmaak voor de intro*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#locaties{       /*Zorgt voor de opmaak voor de locaties*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Arthur{       /*Zorgt voor de opmaak voor Arthur*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Dutch{       /*Zorgt voor de opmaak voor Dutch*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Hosea{       /*Zorgt voor de opmaak voor Hosea*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Micah{       /*Zorgt voor de opmaak voor Micah*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#John{       /*Zorgt voor de opmaak voor John*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#Bill{       /*Zorgt voor de opmaak voor Bill*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Javier{       /*Zorgt voor de opmaak voor Javier*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pinkertons{           /*Zorgt voor de opmaak voor de Pinkertons*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#movie{       /*Zorgt voor de opmaak voor de filmadvertentie*/
+    position: absolute;
+    left: 0vw;
+}
+
+#Charles{       /*Zorgt voor de opmaak voor Charles*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Uncle{       /*Zorgt voor de opmaak voor Uncle*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#uncle img{       /*Zorgt voor de order van de foto Uncle*/
+    order: 2;
+}
